@@ -11,4 +11,4 @@ COPY . /app
 RUN pip install -r /app/requirements.txt
 RUN apk del .build-dependencies && rm -rf /var/cache/apk/*
 EXPOSE 5000
-CMD ["uwsgi", "--ini", "/app/wsgi.ini"]
+CMD ["python", "app.py"]
