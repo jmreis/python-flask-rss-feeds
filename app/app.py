@@ -1,3 +1,4 @@
+import os
 import feedparser
 from flask import Flask
 from flask import render_template
@@ -56,4 +57,5 @@ def get_news(publication='g1'):
 
 
 if __name__ == '__main__':
-	app.run(host='0.0.0.0')
+	port = int(os.environ.get('PORT', 5000))
+  	app.run(host = '0.0.0.0', port = port)
