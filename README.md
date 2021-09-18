@@ -1,7 +1,7 @@
 python-flask-rss-feeds
 =====
 
-Applicação em [Python](https://www.python.org/doc/) usando o framework web [Flask](https://flask.palletsprojects.com/en/2.0.x/),
+Aplicação em [Python](https://www.python.org/doc/) usando o framework web [Flask](https://flask.palletsprojects.com/en/2.0.x/),
 o módulo [feedparser](https://pythonhosted.org/feedparser/) e container com [Docker](https://docs.docker.com/).
 
 [RSS](https://pt.wikipedia.org/wiki/RSS) (Really Simple Syndication) é um formato de distribuição de informações em tempo real pela internet, no qual um subconjunto de "dialetos" XML que servem para agregar conteúdo podem ser acessados mediante programas ou sites agregadores. É usado principalmente em sites de notícias e blogues.
@@ -40,6 +40,6 @@ Use git:
     $ cd python-flask-rss-feeds
 
     $ docker-compose up --build
-    
+
 ```
 
