@@ -1,6 +1,15 @@
 python-flask-rss-feeds
 =====
 
+## Skills
+<code><img height="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png" alt="python"/></code>
+<code><img height="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/flask/flask.png" alt="flask"/></code>
+<code><img height="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" alt="html"/></code>
+<code><img height="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" alt="css"/></code>
+<code><img height="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/docker/docker.png" alt="docker"/></code>
+<code><img height="32" src="https://coffops.com/wp-content/uploads/2021/04/2elgd5zp07wkeilkna63-576x445.png" alt="heroku"/></code>
+
+
 Aplicação em [Python](https://www.python.org/doc/) usando o framework web [Flask](https://flask.palletsprojects.com/en/2.0.x/),
 o módulo [feedparser](https://pythonhosted.org/feedparser/) e container com [Docker](https://docs.docker.com/).
 
@@ -43,3 +52,6 @@ Use git:
 
 ```
 
+## Deploy
+
+Foi realizado o deploy no Heroku, veja em https://flask-rss-feeds.herokuapp.com.
